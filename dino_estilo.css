@@ -1,0 +1,53 @@
+body {
+    background-image: url("imgs/ovopattern.jpg");
+    background-repeat: repeat;
+    background-size: 440px 440px;
+}
+
+div {
+    border: 1px solid green;
+    background-color: white;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+h1 {
+  color: #063d1e;
+  text-align: center;
+  text-shadow: 
+    2px 2px 4px white, 
+    -2px -2px 4px white; 
+}
+
+details {
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    padding: 3px 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 11pt;
+}
+
+summary {
+    cursor: pointer;
+    padding: 5px 2px;
+}
+
+details {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 10pt;
+}
+
+img {
+    float: left;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
